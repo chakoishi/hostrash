@@ -1,8 +1,10 @@
+# LinuxサーバでFolding@homeまとめ.md
+
 有効期限を迎えそうなConohaクレジット消化するためにLinuxサーバでFolding@homeをしようと思ったのでメモ
 
 ## インストール
 
-[FAHClientダウンロード](https://foldingathome.org/alternative-downloads/)に最新版がおいてあるのでwgetでFAHClient最新版をダウンロード
+[FAHClientダウンロード](https://foldingathome.org/alternative-downloads/)に最新版がおいてあるので<br>wgetでFAHClient最新版をダウンロード
 CUIで黙々解析するだけならFAHViewerとかはスルーでOK
 
 ```
