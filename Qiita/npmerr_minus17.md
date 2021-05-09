@@ -17,10 +17,10 @@ npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/xxx/.npm/_logs/2020-01-12T12_30_49_194Z-debug.log
 ```
 
-brewで再インストールしても直らず、google先生に聞いても答えが出てこなかったので
-自力で解決しようと調査したところ/usr/local/share/man/man1下の
-npm〜のファイル全てがシンボリックリンクではないただのファイルだった
-恐らく何らかの理由で作成失敗したのではないか
+brewで再インストールしても直らず、google先生に聞いても答えが出てこなかったので<br>
+自力で解決しようと調査したところ/usr/local/share/man/man1下の<br>
+npm〜のファイル全てがシンボリックリンクではないただのファイルだった<br>
+恐らく何らかの理由で作成失敗したのではないか<br>
 npmの他npxやman5にあるnpmrcも同じような事になっていたので以下のように削除した
 
 ```
